@@ -29,7 +29,7 @@ static uint8_vector_t make_random_u8_vector(unsigned n, unsigned seed)
 
 int main()
 {
-    unsigned number_of_elements_list[] = {10, 20};
+    unsigned number_of_elements_list[] = {1000, 10000, 100000, 1000000, 10000000, 100000000};
     unsigned element_size_list[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 50};
 
     unsigned seed = 123456;
